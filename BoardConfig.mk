@@ -45,6 +45,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_tucana
 BOARD_KERNEL_BASE := 0x00000000
 TARGET_KERNEL_CONFIG := vendor/reborn-tucana_defconfig
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/tucana-firmware
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
