@@ -29,4 +29,10 @@
         "target_path":  "vendor/xiaomi/google",
         "revision":     "master"
     }
+    {
+        "remote":       "github",
+        "repository":   "chemusqui1/vendor_xiaomi_miuicamera",
+        "target_path":  "vendor/xiaomi/miuicamera",
+        "revision":     "master"
+    }
 ]
