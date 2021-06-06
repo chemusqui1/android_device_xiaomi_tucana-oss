@@ -93,4 +93,7 @@
 
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+    <!-- Screen off delay -->
+    <integer name="config_screen_off_delay">1</integer>
 </resources>
