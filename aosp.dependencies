@@ -23,4 +23,10 @@
         "target_path":  "vendor/xiaomi",
         "revision":     "lineage-18.1"
     }
+    {
+        "remote":       "github",
+        "repository":   "chiru2000/vendor_xiaomi_google",
+        "target_path":  "vendor/xiaomi/google",
+        "revision":     "master"
+    }
 ]
