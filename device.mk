@@ -42,6 +42,11 @@ PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor:64 \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_sm6150
 
+# Hotword Enrollment
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/hotword/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
+    $(LOCAL_PATH)/configs/hotword/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
+
 # Init scripts
 PRODUCT_PACKAGES += \
     capture.sh \
@@ -91,6 +96,9 @@ PRODUCT_PACKAGES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/tucana/tucana-vendor.mk)
+
+# Get Hotword stuff
+$(call inherit-product-if-exists, vendor/xiaomi/google/google.mk)
 
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
