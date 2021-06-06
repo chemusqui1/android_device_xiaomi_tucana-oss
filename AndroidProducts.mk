@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tucana.mk
+    $(LOCAL_DIR)/aosp_tucana.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_tucana-userdebug \
-    lineage_tucana-eng
+    aosp_tucana-userdebug \
+    aosp_tucana-eng
