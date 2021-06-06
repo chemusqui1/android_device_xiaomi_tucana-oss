@@ -37,6 +37,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Camera (Reality: MemeCamera)
+PRODUCT_PACKAGES += \
+    Snap
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor:64 \
@@ -96,6 +100,9 @@ PRODUCT_PACKAGES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/tucana/tucana-vendor.mk)
+
+# Get the MemeCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
 # Get Hotword stuff
 $(call inherit-product-if-exists, vendor/xiaomi/google/google.mk)
