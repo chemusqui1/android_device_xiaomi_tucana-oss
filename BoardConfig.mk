@@ -43,7 +43,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_tucana
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
-TARGET_KERNEL_CONFIG := vendor/lineage_tucana-oss_defconfig
+TARGET_KERNEL_CONFIG := vendor/reborn-tucana_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
