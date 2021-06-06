@@ -7,7 +7,7 @@
     },
     {
         "remote":       "github",
-        "repository":   "alibei/android_kernel_xiaomi_sm6150-oss",
+        "repository":   "chemusqui1/android_kernel_xiaomi_sm6150-oss",
         "target_path":  "kernel/xiaomi/sm6150",
         "revision":     "lineage-18.1"
     }
