@@ -69,3 +69,9 @@ on property:sys.boot_completed=1
     write /dev/cpuset/system-background/uclamp.min 0
     write /dev/cpuset/system-background/uclamp.boosted 0
     write /dev/cpuset/system-background/uclamp.latency_sensitive 0
+
+    # Idle freq management
+    write /sys/devices/system/cpu/cpufreq/policy0/schedutil/down_rate_limit_us 2000
+    write /sys/devices/system/cpu/cpufreq/policy0/schedutil/up_rate_limit_us 25000
+    write /sys/devices/system/cpu/cpufreq/policy6/schedutil/down_rate_limit_us 2000
+    write /sys/devices/system/cpu/cpufreq/policy6/schedutil/up_rate_limit_us 25000
