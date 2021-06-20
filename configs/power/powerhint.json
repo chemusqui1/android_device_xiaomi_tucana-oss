@@ -16,7 +16,8 @@
       "Values": [
         "9999999",
         "1248000",
-        "576000"
+        "576000",
+        "300000"
       ],
       "ResetOnInit": true
     },
@@ -38,7 +39,8 @@
         "9999999",
         "1555200",
         "1248000",
-        "652800"
+        "652800",
+        "300000"
       ],
       "ResetOnInit": true
     },
@@ -537,12 +539,6 @@
     {
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMaxFreq",
-      "Duration": 0,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "NOT_INTERACTIVE",
-      "Node": "TASchedtuneHighCap",
       "Duration": 0,
       "Value": "0"
     },
