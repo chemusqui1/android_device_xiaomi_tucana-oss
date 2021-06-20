@@ -176,16 +176,16 @@ vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 
 # Camera (configs)
 vendor/etc/screen_light.xml
-vendor/etc/camera/almalence_sr_params_tele.config
+vendor/etc/camera/almalence_sr_params_tele.config|d68cf20d05a766d2051585b0374c1cd6d4a4c3a0
 vendor/etc/camera/almalence_sr_params_tele4x_moon.config
 vendor/etc/camera/almalence_sr_params_tele4x_zoom20x.config
 vendor/etc/camera/almalence_sr_params_tele4x_zoom30x.config
 vendor/etc/camera/almalence_sr_params_tele4x_zoom40x.config
-vendor/etc/camera/almalence_sr_params_tele4x.config
+vendor/etc/camera/almalence_sr_params_tele4x.config|0c89cc8b61f1a230c3365e9fde394b3e58e38519
 vendor/etc/camera/almalence_sr_params_wide-27M-binning.config
 vendor/etc/camera/almalence_sr_params_wide-108M-remosaic.config
-vendor/etc/camera/almalence_sr_params_wide.config
-vendor/etc/camera/beauty_ui9_intelligent_params.config
+vendor/etc/camera/almalence_sr_params_wide.config|0b5f79c0e88b91643d5ad9f7517959cc0c71d64f
+vendor/etc/camera/beauty_ui9_intelligent_params.config|a9cf088efb6f656ae369a53e96808ef673e27c67
 vendor/etc/camera/body_slim_ui9_params.config
 vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/CFR_para_T_2x_V03.bin
@@ -286,8 +286,8 @@ vendor/lib64/camera/com.qti.sensormodule.tucana_semco_imx350.bin
 vendor/lib64/camera/com.qti.sensormodule.tucana_semco_ov08a10.bin
 vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5k2l7_v1.bin
 vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5k2l7.bin
-vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5khmx_8plens.bin
-vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5khmx.bin
+vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5khmx_8plens.bin|20bbb4df5b29dd7d669a2097a4efb98afef23364
+vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5khmx.bin|6976c31f8352727d4726b3a691675518c59e450e
 vendor/lib64/camera/com.qti.sensormodule.tucana_sunny_ov02a10.bin
 vendor/lib64/camera/com.qti.sensormodule.tucana_sunny_s5kgd1.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
@@ -363,11 +363,6 @@ vendor/firmware/ipa_fws.mdt
 
 # NFC
 vendor/lib/libsn100u_fw.so
-
-# QDCM
-vendor/etc/qdcm_calib_data_xiaomi_f4_36_02_0b_fhd_cmd_dsi_panel.xml
-vendor/etc/qdcm_calib_data_xiaomi_f4_41_06_0a_fhd_cmd_dsi_panel.xml
-vendor/etc/qdcm_calib_data_xiaomi_f4_42_06_0c_fhd_cmd_dsi_panel.xml
 
 # Sensor
 vendor/bin/sensors.qti
