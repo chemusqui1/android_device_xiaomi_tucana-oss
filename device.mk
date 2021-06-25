@@ -48,10 +48,6 @@ PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor:64 \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_sm6150
 
-# FOD Permissions
-PRODUCT_COPY_FILES += \
-    vendor/evolution/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
-
 # Hotword Enrollment
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hotword/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
