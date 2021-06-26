@@ -19,9 +19,9 @@
     }
     {
         "remote":       "gitlab",
-        "repository":   "alibei/android_device_xiaomi_tucana-firmware",
+        "repository":   "jmportos/tucana-firmware",
         "target_path":  "device/xiaomi/tucana-firmware",
-        "revision":     "eleven"
+        "revision":     "main"
     }
     {
         "remote":       "gitlab",
